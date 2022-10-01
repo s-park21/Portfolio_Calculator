@@ -1,4 +1,5 @@
-Portfolio calculator collects stock data from yfinance to calculate financial indicators
+**Portfolio calculator** c
+Collects stock data from yfinance to calculate financial indicators
 
 Installation:
 `pip install -r dependencies.txt`
