@@ -1,0 +1,8 @@
+pyyaml
+argparse
+yfinance
+matplotlib
+numpy
+pandas
+pprint
+operator
