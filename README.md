@@ -1,14 +1,14 @@
-**Portfolio calculator** 
-Collects stock data from yfinance to calculate financial indicators
+**Portfolio calculator**\
+Collects stock data from yfinance to calculate financial indicators\
 
-Installation:
-`pip install -r dependencies.txt`
-This only seems to work effectively in an Anaconda environment however, it is not the only option.
+Installation:\
+`pip install -r dependencies.txt`\
+This only seems to work effectively in an Anaconda environment however, it is not the only option.\
 
-Usage:
-Most of the calculations are performed in the Stocks.py class.
-Pass the class a params.yaml file containing all of the required data for the portfolio calculations.
-See example_portfolio.yaml for reference
+Usage:\
+Most of the calculations are performed in the Stocks.py class.\
+Pass the class a params.yaml file containing all of the required data for the portfolio calculations.\
+See example_portfolio.yaml for reference\
 
-Example:
-Refer to Example_Usage.ipynb
+Example:\
+Refer to Example_Usage.ipynb\
