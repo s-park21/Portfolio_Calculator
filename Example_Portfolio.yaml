@@ -1,0 +1,142 @@
+---
+stocks: 
+  - ticker: "CBA.AX"
+    number: 163
+    purchase_price: 3.11
+    purchase_date: "2019-01-03"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "A2M.AX"
+    number: 32
+    purchase_price: 16.0
+    purchase_date: "2019-05-06"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "AFI.AX"
+    number: 12
+    purchase_price: 41.99
+    purchase_date: "2020-04-06"
+    sale_price:
+    sale_date: ""
+  
+  - ticker: "ANZ.AX"
+    number: 152
+    purchase_price: 3.35
+    purchase_date: "2020-04-17"
+    sale_price: 1.03
+    sale_date: "2020-08-13"
+
+  - ticker: "AWC.AX"
+    number: 270
+    purchase_price: 1.84
+    purchase_date: "2020-06-29"
+    sale_price: 1.0929
+    sale_date: "2021-12-10"
+
+  - ticker: "ASX.AX"
+    number: 66
+    purchase_price: 7.60
+    purchase_date: "2021-04-26"
+    sale_price:
+    sale_date: ""
+  
+  - ticker: "BLD.AX"
+    number: 17
+    purchase_price: 29.5
+    purchase_date: "2021-05-04"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "ARG.AX"
+    number: 1089
+    purchase_price: 0.46
+    purchase_date: "2021-05-26"
+    sale_price: 0.405
+    sale_date: "2021-05-27"
+
+  - ticker: "ALL.AX"
+    number: 21
+    purchase_price: 24.52
+    purchase_date: "2021-05-28"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "MIN.AX"
+    number: 402
+    purchase_price: 1.22
+    purchase_date: "2021-06-01"
+    sale_price:
+    sale_date: ""
+  
+  - ticker: "MEZ.AX"
+    number: 10
+    purchase_price: 50
+    purchase_date: "2021-06-07"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "SCG.AX"
+    number: 260
+    purchase_price: 3.8362
+    purchase_date: "2021-06-16"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "HVST.AX"
+    number: 36
+    purchase_price: 14.21
+    purchase_date: "2021-02-08"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "WBC.AX"
+    number: 20
+    purchase_price: 25.45
+    purchase_date: "2021-08-09"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "APA.AX"
+    number: 52
+    purchase_price: 9.7
+    purchase_date: "2021-08-09"
+    sale_price:
+    sale_date: ""
+
+  - ticker: "VCX.AX"
+    number: 55
+    purchase_price: 17.88
+    purchase_date: "2021-11-1"
+    sale_price: 18.24
+    sale_date: "2021-11-15"
+
+  - ticker: "SYD.AX"
+    number: 44
+    purchase_price: 11.32
+    purchase_date: "2021-11-04"
+    sale_price: 5.42
+    sale_date: "2022-01-24"
+
+  - ticker: "TLS.AX"
+    number: 55
+    purchase_price: 55.21
+    purchase_date: "2022-04-19"
+    sale_price: 
+    sale_date: ""
+
+  - ticker: "TLS.AX"
+    number: 150
+    purchase_price: 17.46
+    purchase_date: "2022-04-19"
+    sale_price: 
+    sale_date: ""
+
+  - ticker: "SHL.AX"
+    number: 82
+    purchase_price: 12.232
+    purchase_date: "2022-09-30"
+    sale_price: 
+    sale_date: ""
+

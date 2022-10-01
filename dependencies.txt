@@ -4,5 +4,5 @@ yfinance
 matplotlib
 numpy
 pandas
-pprint
-operator
+pprintpp
+pyoperators

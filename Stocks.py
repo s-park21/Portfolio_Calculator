@@ -152,13 +152,13 @@ class stocks:
         total_values = stock_values.sum(axis=1)
         weights = stock_values.divide(total_values, axis=0)
 
-        with pd.option_context('display.max_rows', None, 'display.max_columns', None):
-            print(stock_values)
+        # with pd.option_context('display.max_rows', None, 'display.max_columns', None):
+        #     print(stock_values)
         weighted_returns = returns * weights
     
         return weighted_returns.sum(axis=1)
 
-    def get_portfolio_value_timeseries(self, period, interval):
+    def get_portfolio_value_timeseries(self, period="ytd", interval="1h"):
         """
             Gets timeseries return of portfolio
             Inputs: 
@@ -180,11 +180,11 @@ class stocks:
             stock_values.append(filtered_prices * stock["number"])
 
         stock_values = pd.DataFrame(stock_values).transpose()
-        print(stock_values.sum(axis=1))
+        # print(stock_values.sum(axis=1))
         # Calculate total portfolio value at any given time
         return stock_values.sum(axis=1)
 
-    def get_portfolio_stock_values_timeseries(self, period, interval):
+    def get_portfolio_stock_values_timeseries(self, period="ytd", interval="1h"):
         """
             Gets timeseries values of individual stocks within porfolio
             Inputs: 
@@ -195,7 +195,6 @@ class stocks:
         """
         stock_prices = self.get_stock_data(self.tickers_current, period, interval)["Adj Close"]
         stock_prices["Date"] = stock_prices.reset_index()['Date']
-
         returns = []
         stock_values= []
         # # Calculate returns of individual stocks
@@ -208,5 +207,16 @@ class stocks:
 
         stock_values = pd.DataFrame(stock_values).transpose()
         # Calculate total portfolio value at any given time
-        return stock_values.groupby(stock_values.columns, axis=1).sum()
+        return stock_values.groupby(axis=1, level=0).sum()
 
+    def get_portfolio_weights(self):
+        """
+            Gets stock weights 
+            Inputs: 
+            Returns: A dataframe of stock weights
+        """
+        stock_values = self.get_portfolio_stock_values_timeseries(period="6mo", interval="1d")
+        stock_values = stock_values.iloc[-1, :]
+        weights = stock_values / stock_values.sum()
+        return weights
+        
