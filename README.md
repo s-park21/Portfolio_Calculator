@@ -1,4 +1,4 @@
-**Portfolio calculator** c
+**Portfolio calculator** 
 Collects stock data from yfinance to calculate financial indicators
 
 Installation:
