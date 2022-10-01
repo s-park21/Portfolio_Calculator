@@ -10,4 +10,4 @@ Pass the class a params.yaml file containing all of the required data for the po
 See example_portfolio.yaml for reference
 
 Example:
-Refer to Multi_asset_portfolio_calculator.ipynb
+Refer to Example_Usage.ipynb
